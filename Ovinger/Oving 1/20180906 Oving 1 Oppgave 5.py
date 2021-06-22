@@ -1,0 +1,11 @@
+#Øving 1 5a)
+Pizza = int(750)
+Studentrabatt = float(0.2)
+Tips = float(0.08)
+#Øving 1 5b)
+Total = (Pizza)*(1-Studentrabatt)*(1+Tips)
+print("Totalpris: "+str(Total)+" kr")
+antall=int(input("Hvor mange deltok på middagen? "))
+pris_per_pers=int(Total/antall)
+print("Ettersom dere var "+str(antall)+" personer, så må hver av dere betale "+str(pris_per_pers)+" Kr hver")
+           

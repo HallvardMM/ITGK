@@ -1,0 +1,8 @@
+#øving 1 Oppgave 4b)
+Navn = str(input("Skriv ditt navn: ")) 
+Alder = int(input("Hei, "+str(Navn)+", hvor gammel er du? "))
+Alder_prog = int(input("Hvor gammel var du da du begynte å programmere? "))
+print("Da har du programmert i",Alder-Alder_prog,"år.")
+X = str(Alder-Alder_prog)
+svar = str(input("Syns du de "+X+" årene har vært givende? "))
+print("Takk for svar, "+Navn+"!")

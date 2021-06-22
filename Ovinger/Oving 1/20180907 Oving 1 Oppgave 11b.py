@@ -1,0 +1,11 @@
+#Oppgave 11a) øving 1
+antall_1=int(input("Hvor mange cookies vil du lage? "))
+antall_2=int(input("og hvor mange vil du lage nå? "))
+antall_3=int(input("og hvor mange cookies vil du lage til slutt? "))
+antall_1_sukker=int(400/48*antall_1)
+antall_2_sukker=int(400/48*antall_2)
+antall_3_sukker=int(400/48*antall_3)
+antall_1_sjoko=int(500/48*antall_1)
+antall_2_sjoko=int(500/48*antall_2)
+antall_3_sjoko=int(500/48*antall_3)
+print("Antall cookies:\tsukker(g)\tsjokolade(g)\n"+str(antall_1)+"\t\t"+str(antall_1_sukker)+"\t\t"+str(antall_1_sjoko)+"\n"+str(antall_2)+"\t\t"+str(antall_2_sukker)+"\t\t"+str(antall_2_sjoko)+"\n"+str(antall_3)+"\t\t"+str(antall_3_sukker)+"\t\t"+str(antall_3_sjoko))
